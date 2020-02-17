@@ -12,7 +12,7 @@
 ### Projects
 
 [Jaw Detachment](/Jaw_Detachment)
-<img src="images/3d_thumbnail.png?raw=true"/>
+<img src="images/JawDetachmentResults/Img_final.png?raw=true"/>
 
 ---
 
