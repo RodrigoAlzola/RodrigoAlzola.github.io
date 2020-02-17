@@ -30,8 +30,8 @@ Caption: Jaw detach form the original image.
 **Conclusion:**
 The need for interaction with people in the area of dentistry to know the exact requirements and the way in which it is desired to continue this project were fundamental to take the initial step of this research, since without this approach, more expensive segmentation options could have been chosen to perform and maybe unnecessarily extensive.
 
-(3 of July, 2017) Los Andes Univeristy, Santiago, Chile. 
+_(3 of July, 2017) Los Andes Univeristy, Santiago, Chile. 
 This project was develope in colaboration of the Faculty of Odontology and the Faculty of Engineering.
-Credit goes to  Diego Beckdorf and Matías Valenzuela for their primary role in the development of this project.
+Credit goes to  Diego Beckdorf and Matías Valenzuela for their primary role in the development of this project._
 
 
