@@ -1,35 +1,32 @@
-## Portfolio
+## My Portfolio
 
 ---
 
-### Category Name 1 
+### Contents
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+- [Rapid 3D Medical Imaging Reconstruction](/3d_image)
+- [Generate Product Development: SmartyPill Project](/smarty_pill)
+- [Optical Science Laboratory: Collagen Molecule Orientation](/collagen)
+- [Embedded Design Final Project: Wiimote Control of Robotic Arm](/embedded_design)
+- [Circuits and Signals Final Project: ECG Filtering and Detection](/circuits_final)
+- [Testing Cleaning Device Effectiveness](/cleaning_device)
+- [XCharge: Self-Charging Game Controller](/xcharge)
+- [FIRST and Underwater Robotics: Final Year](/robotics)
+- [Informal Photography Portfolio](/photos)
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### Projects
 
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[Rapid 3D Medical Imaging Reconstruction](/3d_image)
+<img src="images/3d_thumbnail.png?raw=true"/>
 
 ---
 
 
-
-
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+
+<p style="font-size:10px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a><br>
+My Email: gajjar.a@husky.neu.edu <br> My Phone: 857-225-4456</p>
 <!-- Remove above link if you don't want to attibute -->
+
