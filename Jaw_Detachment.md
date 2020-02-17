@@ -13,4 +13,6 @@ imaging reconstruction hopes to increase the diagnostic potential of 3D medical 
 and to reduce computational needs for 3D image reconstruction. Note that medical images are 
 often conducted in 2D slices that move through a volumetric portion of a patient (Thus 3D views can be made from these 2D slices).
 
-<img src = "images/3d_thumbnail.png?raw=true">
+<img src = "images/JawDetachmentResult/Img_original_sinT.png?raw=true">
+<img src = "images/JawDetachmentResult/Img_original.png?raw=true">
+<img src = "images/JawDetachmentResult/Img_final.png?raw=true">
