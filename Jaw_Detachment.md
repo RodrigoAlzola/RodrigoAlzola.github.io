@@ -16,7 +16,7 @@ Caption: 3D Human Bone Scan.
 As the skull is what is needed to show up, an appropriate threshold is apply to convert the image:
 
 <img src = "images/JawDetachmentResults/Img_original.png?raw=true">
-Caption: 3D Human Bone Scan after the treshold.
+Caption: 3D Human Bone Scan after treshold.
 
 There is a characteristic in the anatomy of the skull and jaw, from which it was taken advantage of to use the selected methodology. The jaw is not attached to the skull by any bone. Taking advantage of this feature, it was decided to use a plugin that find connected regions which makes segmentation. For this is necesary to set a restriction of minimum density. The way to operate this plugin is to identify some starting point that meets the minimum density restriction and start generating a segmented object by adding all the points adjacent to this object that meet the minimum density restriction, once all the adjacent points have been found it is evaluated if this object contains more points. 
 
