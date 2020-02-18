@@ -30,7 +30,7 @@ Caption: Jaw detach form the original image.
 **Conclusion:**
 The need for interaction with people in the area of dentistry to know the exact requirements and the way in which it is desired to continue this project were fundamental to take the initial step of this research, since without this approach, more expensive segmentation options could have been chosen to perform and maybe unnecessarily extensive.
 
-For more information see <a href="https://github.com/RodrigoAlzola/RodrigoAlzola.github.io/blob/master/pdf/JawDetach_Alzola_Valenzuela_Beckdorf.pdf">here</a>.
+For more information see <a href="RodrigoAlzola.github.io/blob/master/pdf/JawDetach_Alzola_Valenzuela_Beckdorf.pdf">target="_blank">PDF.</a>.
 
 _(3 of July, 2017) Los Andes Univeristy, Santiago, Chile. <br>
 This project was develope in colaboration of the Faculty of Odontology and the Faculty of Engineering of Los Andes University.
