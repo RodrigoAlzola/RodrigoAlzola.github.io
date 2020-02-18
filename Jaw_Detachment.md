@@ -33,7 +33,7 @@ The need for interaction with people in the area of dentistry to know the exact 
 For more information see <a href="https://github.com/RodrigoAlzola/RodrigoAlzola.github.io/blob/master/pdf/JawDetach_Alzola_Valenzuela_Beckdorf.pdf">here</a>.
 
 _(3 of July, 2017) Los Andes Univeristy, Santiago, Chile. <br>
-This project was develope in colaboration of the Faculty of Odontology and the Faculty of Engineering.
+This project was develope in colaboration of the Faculty of Odontology and the Faculty of Engineering of Los Andes University.
 Credit goes to  Diego Beckdorf and Matías Valenzuela for their primary role in the development of this project._
 
 
