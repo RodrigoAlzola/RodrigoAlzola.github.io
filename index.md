@@ -4,14 +4,14 @@
 
 ### Contents
 
-- [Jaw Detachment](/Jaw_Detachment)
+- [Jaw Detachment](/1_Jaw_Detachment)
 
 
 ---
 
 ### Projects
 
-[Jaw Detachment](/Jaw_Detachment)
+[Jaw Detachment](/1_Jaw_Detachment)
 
 <img src="images/JawDetachmentResults/Img_final.png?raw=true"/>
 
