@@ -5,7 +5,7 @@
 ### Contents
 
 - [Jaw Detachment](/1_Jaw_Detachment)
-
+- [Halo_Detector](/2_Halo_Detector)
 
 ---
 
@@ -14,6 +14,10 @@
 [Jaw Detachment](/1_Jaw_Detachment)
 
 <img src="images/JawDetachmentResults/Img_final.png?raw=true"/>
+
+[Halo_Detector](/2_Halo_Detector)
+
+
 
 ---
 
