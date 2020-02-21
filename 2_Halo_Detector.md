@@ -3,7 +3,8 @@
 **Introduction:** 
 Is vital in pharmaceutical and chemistry research develop new and different methods to measure the efficiency of a medicament. In general a variety of pharmaceuticals are attached to a bacterial sample, a circular area is generated as the pharmaceuticals kills the bacteria, like a circle or halo of contrast. The radius of this circular area or halo is determined to measure the efficiency of the pharmaceutical. Normally this procedure take several samples and all them are measure by hand with a caliper by a human, taking more that 4 hours to complete just one experiment and having the risk of mesurment mistakes. The goal of this project is to innovate a machine able to automate this process, make it faster and precise.
 
-
+<img src = "images/Halo_Detector/Manual.png?raw=true">
+Caption: 3D Human Bone Scan.
 
 **Methods and Materials:**
 This project requires: hardware/software engineering, computer vision, biotechnology and product design. 
@@ -16,8 +17,7 @@ All the develope was made in Python with Linux OS and late develop in Debian OS.
 **Development:**
 For a first visualization the stack of images is import to render the bone scan:
 
-<img src = "images/JawDetachmentResults/Img_original_sinT.png?raw=true">
-Caption: 3D Human Bone Scan.
+
 
 As the skull is what is needed to show up, an appropriate threshold is apply to convert the image:
 
