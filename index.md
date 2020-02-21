@@ -5,7 +5,7 @@
 ### Contents
 
 - [Jaw Detachment](/1_Jaw_Detachment)
-- [Halo_Detector](/2_Halo_Detector)
+- [Halo Detector](/2_Halo_Detector)
 
 ---
 
