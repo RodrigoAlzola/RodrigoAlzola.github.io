@@ -4,7 +4,7 @@
 Is vital in pharmaceutical and chemistry research develop new and different methods to measure the efficiency of a medicament. In general a variety of pharmaceuticals are attached to a bacterial sample, a circular area is generated as the pharmaceuticals kills the bacteria, like a circle or halo of contrast. The radius of this circular area or halo is determined to measure the efficiency of the pharmaceutical. Normally this procedure take several samples and all them are measure by hand with a caliper by a human, taking more that 4 hours to complete just one experiment and having the risk of mesurment mistakes. The goal of this project is to innovate a machine able to automate this process, make it faster and precise.
 
 <img src = "images/Halo_Detector/Manual.png?raw=true">
-Caption: 3D Human Bone Scan.
+Caption: Manual mesurment halos.
 
 **Methods and Materials:**
 This project requires: hardware/software engineering, computer vision, biotechnology and product design. 
