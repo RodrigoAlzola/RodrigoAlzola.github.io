@@ -9,9 +9,9 @@ Caption: Manual mesurment halos.
 **Methods and Materials:**
 This project requires: hardware/software engineering, computer vision, biotechnology and product design. 
 The principal materials for this product were:
--Raspberry Pi
--RGB LED strips
--Logitech C920 Webcam
+- Raspberry Pi
+- RGB LED strips
+- Logitech C920 Webcam
 All the develope was made in Python with Linux OS and late develop in Debian OS. 
 
 **Development:**
