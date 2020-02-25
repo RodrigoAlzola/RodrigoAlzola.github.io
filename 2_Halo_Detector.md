@@ -7,7 +7,7 @@ Is vital in pharmaceutical and chemistry research develop new and different meth
 Caption: Manual mesurment halos.
 
 **Methods and Materials:**
-This project requires: hardware/software engineering, computer vision, biotechnology and product design. 
+This project requires knowledge in hardware/software engineering, computer vision, biotechnology and product design. 
 The principal materials for this product were:
 - Raspberry Pi
 - RGB LED strips
