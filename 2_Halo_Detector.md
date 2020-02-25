@@ -1,7 +1,7 @@
 ## Halo Detector
 
 **Introduction:** 
-Is vital in pharmaceutical and chemistry research develop new and different methods to measure the efficiency of a medicament. In general a variety of pharmaceuticals are attached to a bacterial sample, a circular area is generated as the pharmaceuticals kills the bacteria, like a circle or halo of contrast. The radius of this circular area or halo is determined to measure the efficiency of the pharmaceutical. Normally this procedure take several samples and all of them are measure by hand with a caliper by a human, taking more that 4 hours to complete just one experiment and having the risk of mesurment mistakes. The goal of this project is to innovate a machine able to automate this process, make it faster and precise.
+Is vital in pharmaceutical and chemistry research develop new and different methods to measure the efficiency of a medicament. In general a variety of pharmaceuticals discs are attached to a bacterial sample, a circular area is generated as the pharmaceuticals kills the bacteria, like a halo of contrast. The radius of this circular area or halo is determined to measure the efficiency of the pharmaceutical. Normally this procedure take several samples and all of them are measure by hand with a caliper by a human, taking more that 4 hours to complete just one experiment and having the risk of mesurment mistakes. The goal of this project is to innovate a machine able to automate this process, make it faster and precise.
 
 <img src = "images/Halo_Detector/Manual.png?raw=true">
 Caption: Manual mesurment halos.
@@ -16,16 +16,10 @@ The principal materials for this product were:
 All the develope was made in Python with Linux OS and late develop in Debian OS. 
 
 **Development:**
-For a first visualization the stack of images is import to render the bone scan:
+In automatic image analysis, it is common to find the problem of detecting simple ﬁgures such as straight lines or circumferences. The first approach to detect the halos was to use what is called the Hough transform. This method give some good results, but the model wasn't robust. It has a high rate of false positive detections or detect the pharmaceuticals discs, which we are not interest in find. 
 
-
-
-As the skull is what is needed to show up, an appropriate threshold is apply to convert the image:
-
-<img src = "images/JawDetachmentResults/Img_original.png?raw=true">
-Caption: 3D Human Bone Scan after treshold.
-
-There is a characteristic in the anatomy of the skull and jaw, from which it was taken advantage of to use the selected methodology. The jaw is not attached to the skull by any bone. Taking advantage of this feature, it was decided to use a plugin that find connected regions which makes segmentation. For this is necesary to set a restriction of minimum density. The way to operate this plugin is to identify some starting point that meets the minimum density restriction and start generating a segmented object by adding all the points adjacent to this object that meet the minimum density restriction, once all the adjacent points have been found it is evaluated if this object contains more points. 
+<img src = "images/Halo_Detector/Hough.png?raw=true">
+Caption: Hough transform detection.
 
 **Results:**
 At the end of the image analysis the plugin delivers an image series with the different segmentations according to the restrictions. Three conected regions where found: the skull, the jaw and the spine. It should be taken into consideration that in the delivered image there has to be no point of contact between the lower part of the jaw with the rest of the skull. The only part that can be contact between this two bones is in the teeth. 
