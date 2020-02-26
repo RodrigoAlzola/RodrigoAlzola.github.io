@@ -16,11 +16,20 @@ The principal materials for this product were:
 All the develope was made in Python with Linux OS and late develop in Debian OS. 
 
 **Development:**
-Software design:
-In automatic image analysis, it is common to find the problem of detecting simple ﬁgures such as straight lines or circumferences. The first approach to detect the halos was to use what is called the Hough transform. This method give some good results, but the model wasn't robust. It has a high rate of false positive detections or detect the pharmaceuticals discs, which we are not interest in find. 
+
+(*Software design*):
+In automatic image analysis, it is common to find the problem of detecting simple ﬁgures such as straight lines or circumferences. The first approach to detect the halos was to use what is called the Hough transform. This method give some good results, but the model wasn't robust. It has a high rate of false positive detections or detect the smallest pharmaceuticals discs, which there is not interest in find. 
 
 <img src = "images/Halo_Detector/Hough.png?raw=true">
 Caption: Hough transform detection.
+
+As this approach is not trustworthy I decide to do an intensive image analysis. Applying a simple threshold is easy to detect the borders of the halos because of there contrast. Choosing 3 points in the line of the halo is possible to calculate the radius and the center of a circle and represent the whole circumference (for more information see <a href="https://www.geeksforgeeks.org/equation-of-circle-when-three-points-on-the-circle-are-given/">Circle from three points calculator</a>). Also for the analysis I take advantage of the geometry of the problem as the samples are always going to have 6 halos separated in the same way. 
+
+<img src = "images/Halo_Detector/Analisis.gif?raw=true">
+Caption: Full image analysis.
+
+
+
 
 
 
