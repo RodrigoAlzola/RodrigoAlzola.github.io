@@ -21,6 +21,8 @@ In automatic image analysis, it is common to find the problem of detecting simpl
 <img src = "images/Halo_Detector/Hough1.png?raw=true">
 Caption: Hough transform detection.
 
+
+
 **Results:**
 At the end of the image analysis the plugin delivers an image series with the different segmentations according to the restrictions. Three conected regions where found: the skull, the jaw and the spine. It should be taken into consideration that in the delivered image there has to be no point of contact between the lower part of the jaw with the rest of the skull. The only part that can be contact between this two bones is in the teeth. 
 It is vitally important that this fact is taken into consideration when taking an X-ray, since if there is any point of contact, segmentation could be difficult. This happens because when there is a point of contact, the method recognizes the entire skull as a single segment.
