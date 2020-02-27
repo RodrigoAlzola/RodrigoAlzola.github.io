@@ -30,7 +30,10 @@ Caption: Full image analysis.
 
 For the final product a basic GUI was develope. It make the analysis via streaming, controlling the levels of light and filter values. 
 
-<img src = "images/Halo_Detector/GUI.mp4?raw=true">
+<video controls>
+  <source src="images/Halo_Detector/GUI.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 Caption: Basic GUI. 
 
 (*Hardware design*):
