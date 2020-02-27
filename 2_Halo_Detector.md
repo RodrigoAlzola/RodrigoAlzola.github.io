@@ -23,15 +23,22 @@ In automatic image analysis, it is common to find the problem of detecting simpl
 <img src = "images/Halo_Detector/Hough.png?raw=true">
 Caption: Hough transform detection.
 
-As this approach is not trustworthy I decide to do an intensive image analysis. Applying a simple threshold is easy to detect the borders of the halos because of there contrast. Choosing 3 points in the line of the halo is possible to calculate the radius and the center of a circle and represent the whole circumference (for more information see <a href="https://www.geeksforgeeks.org/equation-of-circle-when-three-points-on-the-circle-are-given/">Circle from three points calculator</a>). Also for the analysis I take advantage of the geometry of the problem as the samples are always going to have 6 halos separated in the same way. 
+As this approach is not trustworthy I decide to do an intensive image analysis. Applying a simple threshold and filters is easy to detect the borders of the halos because of there contrast. Choosing 3 points in the line of the halo is possible to calculate the radius and the center of a circle and represent the whole circumference (for more information see <a href="https://www.geeksforgeeks.org/equation-of-circle-when-three-points-on-the-circle-are-given/">Circle from three points calculator</a>). Also for the analysis I take advantage of the geometry of the problem as the samples are always going to have 6 halos separated in the same way for performance agility. 
 
 <img src = "images/Halo_Detector/Analisis.gif?raw=true">
 Caption: Full image analysis.
 
+For the final product a basic GUI was develope. It make the analysis via streaming, controlling the levels of light and filter values. 
 
+<img src = "images/Halo_Detector/GUI.mp4?raw=true">
+Caption: Basic GUI. 
 
+(*Hardware design*):
+In innovation is essential to understand the concept of "viable minimums". It means to reach the most requirements for satisfying a product with the minimum materials and time. First prototype was developed with the use of a Raspberry Pi. 
 
-
+<img src = "images/Halo_Detector/prototipo.png?raw=true">
+<img src = "images/Halo_Detector/RGB.png?raw=true">
+Caption: First prototype. It takes photos in RGB for early analysis. 
 
 **Results:**
 At the end of the image analysis the plugin delivers an image series with the different segmentations according to the restrictions. Three conected regions where found: the skull, the jaw and the spine. It should be taken into consideration that in the delivered image there has to be no point of contact between the lower part of the jaw with the rest of the skull. The only part that can be contact between this two bones is in the teeth. 
