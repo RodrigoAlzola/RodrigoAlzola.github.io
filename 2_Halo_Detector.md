@@ -30,18 +30,17 @@ Caption: Full image analysis.
 
 For the final product a basic GUI was develope. It make the analysis via streaming, controlling the levels of light and filter values. 
 
-<video controls>
-  <source src="images/Halo_Detector/GUI.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-Caption: Basic GUI. 
-
 (*Hardware design*):
 In innovation is essential to understand the concept of "viable minimums". It means to reach the most requirements for satisfying a product with the minimum materials and time. First prototype was developed with the use of a Raspberry Pi. 
 
 <img src = "images/Halo_Detector/prototipo.png?raw=true">
 <img src = "images/Halo_Detector/RGB.png?raw=true">
 Caption: First prototype. It takes photos in RGB for early analysis. 
+
+The second prototype was a much more close to the final product. At this stage the client starts already testing the product, so that correction and modifications can be performed.
+
+<img src = "images/Halo_Detector/prototipo2.png?raw=true">
+Caption: Second prototype. 
 
 **Results:**
 At the end of the image analysis the plugin delivers an image series with the different segmentations according to the restrictions. Three conected regions where found: the skull, the jaw and the spine. It should be taken into consideration that in the delivered image there has to be no point of contact between the lower part of the jaw with the rest of the skull. The only part that can be contact between this two bones is in the teeth. 
