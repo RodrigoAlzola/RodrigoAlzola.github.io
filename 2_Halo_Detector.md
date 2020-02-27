@@ -39,15 +39,15 @@ Caption: First prototype. It takes photos in RGB for early analysis.
 
 The second prototype was a much more close to the final product. At this stage the client starts already testing the product, so that correction and modifications can be performed.
 
-<img src = "images/Halo_Detector/prototipo2.png?raw=true">
+<img src = "images/Halo_Detector/prototip2.png?raw=true">
 Caption: Second prototype. 
 
 **Results:**
-At the end of the image analysis the plugin delivers an image series with the different segmentations according to the restrictions. Three conected regions where found: the skull, the jaw and the spine. It should be taken into consideration that in the delivered image there has to be no point of contact between the lower part of the jaw with the rest of the skull. The only part that can be contact between this two bones is in the teeth. 
-It is vitally important that this fact is taken into consideration when taking an X-ray, since if there is any point of contact, segmentation could be difficult. This happens because when there is a point of contact, the method recognizes the entire skull as a single segment.
+A robust image anlyisis to detect halos was implement with a frendly interface for automatisation of pharmaceutical mesurments. The final results is show next:
 
-<img src = "images/JawDetachmentResults/Img_final.png?raw=true">
-Caption: Jaw detach form the original image.
+<img src = "images/Halo_Detector/results.png?raw=true">
+Caption: Final halo detection.
+
 
 **Conclusion:**
 The need for interaction with people in the area of dentistry to know the exact requirements and the way in which it is desired to continue this project were fundamental to take the initial step of this research, since without this approach, more expensive segmentation options could have been chosen to perform and maybe unnecessarily extensive.
