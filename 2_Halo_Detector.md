@@ -39,7 +39,7 @@ Caption: First prototype. It takes photos in RGB for early analysis.
 
 The second prototype was a much more close to the final product. At this stage the client starts already testing the product, so that correction and modifications can be performed.
 
-<img src = "images/Halo_Detector/prototipo2.jpg?raw=true">
+<img src = "images/Halo_Detector/prototipo2.png?raw=true">
 Caption: Second prototype. 
 
 **Results:**
