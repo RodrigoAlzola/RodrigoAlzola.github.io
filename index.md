@@ -1,6 +1,9 @@
 ## My Portfolio
 
+**_“If a picture is worth 1000 words, a prototype is worth 1000 meetings”_ — Tom & David Kelley**
+
 ---
+
 
 ### Contents
 
@@ -19,7 +22,7 @@
 
 [Halo_Detector](/2_Halo_Detector)
 
-
+<img src="images/Halo_Detector/intro.png?raw=true"/>
 ---
 
 <p style="font-size:10px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a><br>
