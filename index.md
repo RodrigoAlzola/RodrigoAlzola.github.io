@@ -17,7 +17,7 @@
 
 [Jaw Detachment](/1_Jaw_Detachment)
 
-<img src="images/JawDetachmentResults/Img_final.png" width="480" height="485">
+<img src="images/JawDetachmentResults/Img_final.png" width="300" height="303">
 
 ---
 
