@@ -45,7 +45,7 @@ For the final product a basic GUI was develope. It make the analysis via streami
 **Results:**
 This is the final version of the machine, this one was delivered to the client:
 
-<img src = "images/Halo_Detector/FinalM.png?raw=true">
+<img src = "images/Halo_Detector/FinalM.png?raw=true"> <br>
 Caption: Final product.
 
 A robust image anlyisis to detect halos was implement with a frendly interface for automatisation of pharmaceutical mesurments. The final results is show next:
