@@ -1,7 +1,7 @@
 ## My Portfolio
 
-**_“If a picture is worth 1000 words, a prototype is worth 1000 meetings”_ 
-                                                    — Tom & David Kelley**
+**_“If a picture is worth 1000 words, a prototype is worth 1000 meetings”_ <br>
+— Tom & David Kelley —**
 
 ---
 
