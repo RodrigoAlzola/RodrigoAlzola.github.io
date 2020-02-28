@@ -45,7 +45,8 @@ Caption: Second prototype.
 **Results:**
 A robust image anlyisis to detect halos was implement with a frendly interface for automatisation of pharmaceutical mesurments. The final results is show next:
 
-<img src = "images/Halo_Detector/results.png?raw=true">
+<img src = "images/Halo_Detector/results1.png?raw=true">
+<img src = "images/Halo_Detector/results2.png?raw=true">
 Caption: Final halo detection.
 
 
