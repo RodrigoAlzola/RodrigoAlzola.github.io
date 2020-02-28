@@ -17,11 +17,11 @@
 
 [Jaw Detachment](/1_Jaw_Detachment)
 
-<img src="images/JawDetachmentResults/Img_final.png?raw=true"/>
+<img src="images/JawDetachmentResults/Img_final.png? raw=true"/ style="width:500px;height:600px;>
 
 ---
 
-[Halo_Detector](/2_Halo_Detector)
+[Halo Detector](/2_Halo_Detector)
 
 <img src="images/Halo_Detector/intro.png?raw=true"/>
 ---
