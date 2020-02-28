@@ -63,5 +63,5 @@ Caption: Officials training.
 
 
 _(January, 2018) C3D Open Innovation, Santiago, Chile. <br>
-This project was develope for the Chemical Analysis Center of the Faculty of Chemistry, Universidad Catolica, Santiago, Chile.
+This project was develope for the Chemical Analysis Center of the Faculty of Chemistry, Universidad Catolica, Santiago, Chile.<br>
 All the intellectual property of this project belongs to C3D Open Innovation._
