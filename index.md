@@ -10,6 +10,7 @@
 
 - [Jaw Detachment](/1_Jaw_Detachment)
 - [Halo Detector](/2_Halo_Detector)
+- [ESG Scores in Latin American Markets](/3_ESG_Scores)
 
 ---
 
@@ -24,6 +25,11 @@
 [Halo Detector](/2_Halo_Detector)
 
 <img src="images/Halo_Detector/intro.png?raw=true"/>
+
+---
+
+[ESG Scores in Latin American Markets](/3_ESG_Scores)
+
 ---
 
 <p style="font-size:10px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a><br>
