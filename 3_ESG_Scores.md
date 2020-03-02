@@ -16,7 +16,7 @@ All the code was implement in Python.
 ESG refers to the three central factors in measuring the sustainability and societal impact of an investment in a company or business.
 These criteria help to better determine the future financial performance of companies, return and risk. We made a questionnaire of 101 questions related to ESG and we make all the analysts to answer it for every company that trades in the stock market of Latin America. With the we determine the next equeation:
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=ESG = x_1w_1 + x_2w_2...">
   
 
 **Results:**
