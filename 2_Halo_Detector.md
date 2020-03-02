@@ -18,7 +18,7 @@ All the develope was made in Python with Linux OS and late develop in Debian OS.
 **Development:**
 
 (*Hardware design*):
-In innovation is essential to understand the concept of "viable minimums". It means to reach the most requirements for satisfying a product with the minimum materials and time. First prototype was developed with the use of a Raspberry Pi. 
+In innovation is essential to understand the concept of "viable minimums". It means to reach the most requirements for satisfying a product with the minimum materials and time. The product must take a shot of the sample and calculate the radius automatically. Also it must regulate the intesity of light, as the sample is sensitive to some emissions. First prototype was developed with the use of a Raspberry Pi. 
 
 <img src = "images/Halo_Detector/prototipo.png?raw=true">
 <img src = "images/Halo_Detector/RGB.png?raw=true">
