@@ -19,8 +19,9 @@ These criteria help to better determine the future financial performance of comp
 <img src="https://render.githubusercontent.com/render/math?math=ESG = x_1w_1 %2B x_2w_2 ... %2B x_iw_i ... %2B x_101w_101">
 
 Where __x__ is the answer of the question i and __w__ is the weight of that question. The __x__ value is assigned depending on the answer and it takes values between 0 and 1. The weight will be calculated through an optimisation model that it will be explained later.
-Making a simple assumption that for a better ESG score the lower the HOLT (discount rate) will be. 
-  
+Making a simple assumption that for a high ESG score, the lower the HOLT will be. This in general is true, companies that have better behavior, the market will reward with a better revenue, or in other words, with a lower discount rate. The fucntion that explain this: 
+
+<img src="https://render.githubusercontent.com/render/math?math=Y = \beta_0 %2B \beta_1ESG %2B \beta_2ESG^2 %2B \beta_3ESG^3">
 
 **Results:**
 
