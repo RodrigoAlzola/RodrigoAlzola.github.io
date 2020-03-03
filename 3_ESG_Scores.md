@@ -23,6 +23,12 @@ Making a simple assumption that for a high ESG score, the lower the HOLT will be
 
 <img src="https://render.githubusercontent.com/render/math?math=Y = \beta_0 %2B \beta_1ESG %2B \beta_2ESG^2 %2B \beta_3ESG^3">
 
+Graficaly this looks like:
+
+<img src="images/ESG/Regresion.png" width="400" height="409">
+
+This assumption make sense, because for companies with a great ESG score I'll expect a good return (lower HOLT) and with a awful ESG score the market will punish the companies, expecting a bad return (higher HOLT). So in the extremes is comprensible that either it rewards with a good discount rate or punish it with a bad one with more intensity. With a regular 
+
 **Results:**
 
 
