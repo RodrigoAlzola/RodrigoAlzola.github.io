@@ -28,9 +28,9 @@ Where betas are the coefficients of a three order equation to predict a HOLT val
 <img src="images/ESG/Regresion1.png" width="500" height="492">
 Caption: Curve to fit all the observed points. 
 
+This assumption make sense, because for companies with a great ESG score I'll expect a good return (lower HOLT) and with a awful ESG score the market will punish the companies, expecting a bad return (higher HOLT). So in the extremes is comprensible that either it rewards with a good discount rate or punish it with a bad one with more intensity. With a regular score the differenc in return is not so radical. Is necessary to compare the predicted HOLT with the real or observed ones given by _Credit Suisse_. Now we can determine the __w__ weights calculating the minimum coefficient of determination _R square_. The optimization equation should look like: 
 
-
-<img src="https://render.githubusercontent.com/render/math?math=R^2 = 1 %2D \frac{\sumY_predict %2D \overline{Y_i}}{\sumY_observed %2D \overline{Y_i}}">
+<img src="https://render.githubusercontent.com/render/math?math=min R^2 = 1 %2D \frac{\sum Y_{predict} %2D \overline{Y_i}}{\sum Y_{observed} %2D \overline{Y_i}}">
 
 Is important to note that every industry is different from each other, so we take the mean of every industry __i__ to compare the companies. The industry type can be: Utilities, Industrials, Consumer Staples, Materials, Consumer Discretionary, Communication Service, Financials, Real State, Energy, Health Care and Information Technology.
 
