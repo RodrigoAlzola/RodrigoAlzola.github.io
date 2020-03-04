@@ -16,21 +16,27 @@ All the code was implement in Python.
 ESG refers to the three central factors in measuring the sustainability and societal impact of an investment in a company or business.
 These criteria help to better determine the future financial performance of companies, return and risk. We made a questionnaire of 101 multiple choice questions related to ESG and we make all the analysts to answer it for every company that trades in the stock market of Latin America. We determine a ESG score with the next equeation:
 
-<img src="https://render.githubusercontent.com/render/math?math=ESG = x_1w_1 %2B x_2w_2 ... %2B x_iw_i ... %2B x_101w_101">
+<img src="https://render.githubusercontent.com/render/math?math=ESG = x_1w_1 %2B x_2w_2 ... %2B x_nw_n ... %2B x_101w_101">
 
-Where __x__ is the answer of the question i and __w__ is the weight of that question. The __x__ value is assigned depending on the answer and it takes values between 0 and 1. The weight will be calculated through an optimisation model that it will be explained later.
+Where __x__ is the answer of the question n and __w__ is the weight of that question. The __x__ value is assigned depending on the answer and it takes values between 0 and 1. The weight will be calculated through an optimisation model that it will be explained later.
 Making a simple assumption that for a high ESG score, the lower the HOLT will be. This in general is true, companies that have better behavior, the market will reward with a better revenue, or in other words, with a lower discount rate. The fucntion that explain this: 
 
-<img src="https://render.githubusercontent.com/render/math?math=Y = \beta_0 %2B \beta_1ESG %2B \beta_2ESG^2 %2B \beta_3ESG^3">
+<img src="https://render.githubusercontent.com/render/math?math=Y_predict = \beta_0 %2B \beta_1ESG %2B \beta_2ESG^2 %2B \beta_3ESG^3">
 
-Graficaly this looks like:
+Where betas are the coefficients of a three order equation to predict a HOLT value given a ESG score. Graficaly this looks like:
 
-<img src="images/ESG/Regresion.png" width="400" height="409">
+<img src="images/ESG/Regresion1.png" width="500" height="492">
+Caption: Curve to fit all the observed points. 
 
-This assumption make sense, because for companies with a great ESG score I'll expect a good return (lower HOLT) and with a awful ESG score the market will punish the companies, expecting a bad return (higher HOLT). So in the extremes is comprensible that either it rewards with a good discount rate or punish it with a bad one with more intensity. With a regular 
+<img src="https://render.githubusercontent.com/render/math?math=R^2 = 1 %2D \frac{\sumY_predict %2D \overline{Y_i}}{\sumY_observed %2D \overline{Y_i}}">
+
+Is important to note that every industry is different from each other, so we take the mean of every industry __i__ to compare the companies. The industry type can be: Utilities, Industrials, Consumer Staples, Materials, Consumer Discretionary, Communication Service, Financials, Real State, Energy, Health Care and Information Technology.
 
 **Results:**
+Determine the weitghts of every question will tell us which question is more importatn in the moment to take a desicion or make analysis of a companie. After the optimisation model many question give they weights to 0. The minumim value for the coefficient of determination was __R square = 0.32__. Next is show the ESG scores of companies form different countries fitted to the curve. 
 
+<img src="images/ESG/Fit.png" width="500" height="490">
+Caption: Results of ESG scores vs HOLT value. 
 
 
 **Conclusion:**
