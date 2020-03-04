@@ -30,6 +30,8 @@
 
 [ESG Scores in Latin American Markets](/3_ESG_Scores)
 
+<img src="images/ESG/Fit.png" width="500" height="490">
+
 ---
 
 <p style="font-size:10px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a><br>
