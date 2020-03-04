@@ -37,16 +37,16 @@ Is important to note that every industry is different from each other, so we tak
 **Results:**
 Determine the weitghts of every question will tell us which question is more importatn in the moment to take a desicion or make analysis of a companie. After the optimisation model many question give they weights to 0. The minumim value for the coefficient of determination was __R square = 0.32__. Next is show the ESG scores of companies form different countries fitted to the curve. 
 
-<img src="images/ESG/Fit.png" width="700" height="388">
+<img src="images/ESG/Fit.png" width="500" height="490">
 Caption: Results of ESG scores vs HOLT values. 
 
 Is interesting to review the questions with higher weights. The two highest ones are __Age of the youngest board member__ and __Number/percentage of female directors__. This give us information about how important is that the board or the direction of a company is open to change or includes new ideas and ways of thinking. This is not a surprise since Latin America suffers of heavy corruption issues, making important that the companies are transparent in there transactions. 
 
-<img src="images/ESG/questions.png" width="500" height="490">
+<img src="images/ESG/questions.png" width="700" height="388">
 Caption: Questions with higher weight.
 
 **Conclusion:**
-Nowadays people are very aware of what companies are doing, if they are frendly to the enviroment, or if the labor conditions are acceptable.
+Nowadays people are very aware of what companies are doing, if they are friendly to the environment, or if the labor conditions are acceptable. Female movements or climate change discussions for example affect how companies work, but more important, affect how people valorates its and shift their opinions about it. Having a successful business is not just about making money, is making money meanwhile you do good to the world.
 
 
 _(Agust, 2019) Compass Group Asset Management, Santiago, Chile. <br>
