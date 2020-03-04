@@ -21,12 +21,14 @@ These criteria help to better determine the future financial performance of comp
 Where __x__ is the answer of the question n and __w__ is the weight of that question. The __x__ value is assigned depending on the answer and it takes values between 0 and 1. The weight will be calculated through an optimisation model that it will be explained later.
 Making a simple assumption that for a high ESG score, the lower the HOLT will be. This in general is true, companies that have better behavior, the market will reward with a better revenue, or in other words, with a lower discount rate. The fucntion that explain this: 
 
-<img src="https://render.githubusercontent.com/render/math?math=Y_predict = \beta_0 %2B \beta_1ESG %2B \beta_2ESG^2 %2B \beta_3ESG^3">
+<img src="https://render.githubusercontent.com/render/math?math=Y_{predict} = \beta_0 %2B \beta_1ESG %2B \beta_2ESG^2 %2B \beta_3ESG^3">
 
 Where betas are the coefficients of a three order equation to predict a HOLT value given a ESG score. Graficaly this looks like:
 
 <img src="images/ESG/Regresion1.png" width="500" height="492">
 Caption: Curve to fit all the observed points. 
+
+
 
 <img src="https://render.githubusercontent.com/render/math?math=R^2 = 1 %2D \frac{\sumY_predict %2D \overline{Y_i}}{\sumY_observed %2D \overline{Y_i}}">
 
