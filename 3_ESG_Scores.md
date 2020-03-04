@@ -45,6 +45,8 @@ Is interesting to review the questions with higher weights. The two highest ones
 <img src="images/ESG/questions.png" width="700" height="388">
 Caption: Questions with higher weight.
 
+The whole result and analysis can be look at <a href="https://esg-app.herokuapp.com/">ESG App</a>
+
 **Conclusion:**
 Nowadays people are very aware of what companies are doing, if they are friendly to the environment, or if the labor conditions are acceptable. Female movements or climate change discussions for example affect how companies work, but more important, affect how people valorates its and shift their opinions about it. Having a successful business is not just about making money, is making money meanwhile you do good to the world.
 
