@@ -32,7 +32,6 @@
 <img src="images/ESG/Fit.png" width="400" height="390">
 
 ---
-<p style="font-size:10px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a><br>
-My Email: ralzola@miuandes.cl <br> My Phone: (+56) 979166920 </p>
+<p style="font-size:10px"> My Email: ralzola@miuandes.cl <br> My Phone: (+56) 979166920 </p>
 <!-- Remove above link if you don't want to attibute -->
 
