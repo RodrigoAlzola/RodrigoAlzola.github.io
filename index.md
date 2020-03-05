@@ -1,4 +1,3 @@
-## My Portfolio
 
 **_“If a picture is worth 1000 words, a prototype is worth 1000 meetings”_ <br>
                                                   — Tom & David Kelley —**
@@ -6,7 +5,7 @@
 ---
 
 
-### Contents
+### My Portfolio
 
 - [Jaw Detachment](/1_Jaw_Detachment)
 - [Halo Detector](/2_Halo_Detector)
@@ -30,7 +29,7 @@
 
 [ESG Scores in Latin American Markets](/3_ESG_Scores)
 
-<img src="images/ESG/Fit.png" width="500" height="490">
+<img src="images/ESG/Fit.png" width="400" height="390">
 
 ---
 
